@@ -1,0 +1,14 @@
+{
+  "name": "projeto-webii",
+  "version": "1.0.0",
+  "description": "Projeto full stack desenvolvido na disciplina de Progrmação Web II usando Node.js e React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
