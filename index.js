@@ -1,6 +1,11 @@
 const express = require('express');
 const app = express();
 
-app.listen(3001, () =>{
-    console.log("Servidor rodando na porta 3001 e eu estou feliz");
+const db = require('./models');
+
+db.sequelize.sync().then(() => {
+    app.listen(3001, () =>{
+    console.log("Servidor rodando na porta 3001");
+    })
 })
+
